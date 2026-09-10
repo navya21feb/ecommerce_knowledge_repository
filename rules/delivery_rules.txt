@@ -1,0 +1,18 @@
+E-COMMERCE DELIVERY RULES
+=========================
+
+Rule 1:
+If an order is confirmed,
+then it can be prepared for shipment.
+
+Rule 2:
+If an order is shipped,
+then its delivery status is updated.
+
+Rule 3:
+If delivery is delayed,
+then the issue should be escalated to customer support.
+
+Rule 4:
+If an order is delivered,
+then the customer can request an eligible return.
