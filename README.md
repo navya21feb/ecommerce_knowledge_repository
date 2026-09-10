@@ -93,7 +93,7 @@ Then:
 ## Repository Structure
 
 ```text
-ecommerce-knowledge-repository/
+ecommerce_knowledge_repository/
 │
 ├── README.md
 ├── knowledge_base.py
