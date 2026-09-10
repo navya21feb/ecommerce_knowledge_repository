@@ -79,14 +79,3 @@ def display_decision(order):
     decision = resolve_knowledge(order)
 
     print("\nDecision:", decision)
-
-
-# Example order
-order = {
-    "payment": "successful",
-    "inventory": "available",
-    "delivery": "pending",
-    "return_request": False
-}
-
-display_decision(order)
