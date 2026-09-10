@@ -1,0 +1,17 @@
+E-COMMERCE RETURN RULES
+======================
+
+Rule 1:
+If an order is delivered and a return request is received,
+then the return request can be accepted.
+
+Rule 2:
+If an order has not been delivered,
+then a normal product return cannot be processed.
+
+Rule 3:
+If the return request does not satisfy the business policy,
+then the request should be rejected.
+
+Rule 4:
+An accepted return can proceed to refund processing.
