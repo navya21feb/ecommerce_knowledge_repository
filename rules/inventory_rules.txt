@@ -1,0 +1,18 @@
+E-COMMERCE INVENTORY RULES
+==========================
+
+Rule 1:
+If product stock is greater than zero,
+then the product is available.
+
+Rule 2:
+If product stock is equal to zero,
+then the product is out of stock.
+
+Rule 3:
+If the product is available and payment is successful,
+then the order can be confirmed.
+
+Rule 4:
+If the product is out of stock,
+then the order should be cancelled or backordered.
