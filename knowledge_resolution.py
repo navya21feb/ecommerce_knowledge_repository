@@ -61,13 +61,28 @@ def resolve_knowledge(facts):
 
 
 def display_decision(order, decision):
-    """
-    Displays the order facts alongside the resolved decision.
-    """
     print("\nOrder Information")
     print("-----------------")
-
     for key, value in order.items():
         print(f"{key} : {value}")
-
     print("\nDecision:", decision)
+
+
+if __name__ == "__main__":
+    order_1 = {
+        "payment": "successful",
+        "inventory": "available",
+        "delivery": "pending",
+        "return_request": False
+    }
+    decision_1 = resolve_knowledge(order_1)
+    display_decision(order_1, decision_1)
+
+    order_2 = {
+        "payment": "failed",
+        "inventory": "available",
+        "delivery": "pending",
+        "return_request": False
+    }
+    decision_2 = resolve_knowledge(order_2)
+    display_decision(order_2, decision_2)
