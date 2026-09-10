@@ -1,0 +1,17 @@
+[
+    {
+        "customer_id": 501,
+        "name": "Aarav Sharma",
+        "email": "aarav@example.com"
+    },
+    {
+        "customer_id": 502,
+        "name": "Riya Mehta",
+        "email": "riya@example.com"
+    },
+    {
+        "customer_id": 503,
+        "name": "Kabir Singh",
+        "email": "kabir@example.com"
+    }
+]
