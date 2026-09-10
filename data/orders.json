@@ -1,0 +1,47 @@
+[
+    {
+        "order_id": 1001,
+        "customer_id": 501,
+        "product_id": 101,
+        "payment": "successful",
+        "inventory": "available",
+        "delivery": "pending",
+        "return_request": false
+    },
+    {
+        "order_id": 1002,
+        "customer_id": 502,
+        "product_id": 102,
+        "payment": "failed",
+        "inventory": "available",
+        "delivery": "pending",
+        "return_request": false
+    },
+    {
+        "order_id": 1003,
+        "customer_id": 503,
+        "product_id": 103,
+        "payment": "successful",
+        "inventory": "out_of_stock",
+        "delivery": "pending",
+        "return_request": false
+    },
+    {
+        "order_id": 1004,
+        "customer_id": 501,
+        "product_id": 104,
+        "payment": "successful",
+        "inventory": "available",
+        "delivery": "delayed",
+        "return_request": false
+    },
+    {
+        "order_id": 1005,
+        "customer_id": 502,
+        "product_id": 101,
+        "payment": "successful",
+        "inventory": "available",
+        "delivery": "delivered",
+        "return_request": true
+    }
+]
