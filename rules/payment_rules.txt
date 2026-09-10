@@ -1,0 +1,18 @@
+E-COMMERCE PAYMENT RULES
+========================
+
+Rule 1:
+If payment status is successful,
+then the payment is confirmed.
+
+Rule 2:
+If payment status is failed,
+then retry the payment.
+
+Rule 3:
+If payment status is pending,
+then wait for payment confirmation.
+
+Rule 4:
+If payment continues to fail,
+then escalate the issue to customer support.
