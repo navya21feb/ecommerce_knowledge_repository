@@ -1,0 +1,30 @@
+[
+    {
+        "product_id": 101,
+        "name": "Gaming Headphones",
+        "category": "Electronics",
+        "price": 1999,
+        "stock": 25
+    },
+    {
+        "product_id": 102,
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "price": 999,
+        "stock": 40
+    },
+    {
+        "product_id": 103,
+        "name": "Mechanical Keyboard",
+        "category": "Electronics",
+        "price": 2499,
+        "stock": 0
+    },
+    {
+        "product_id": 104,
+        "name": "Laptop Stand",
+        "category": "Accessories",
+        "price": 799,
+        "stock": 15
+    }
+]
